@@ -24,98 +24,62 @@
 
 ---
 
-#### Visualizar o projeto na IDE:
+## Visualizar o projeto na IDE:
 
 Para quem quiser visualizar o projeto na IDE esse recurso do GitHub é bem bacana:
 
-https://github1s.com/alcir-junior-caju/study-js-reactjs-gostack-gobarber
+https://github1s.com/alcir-junior-caju/project-js-react-default
 
 ---
 
-#### Descrição
+## Descrição
 
-One Paragraph of project description goes here
+Projeto criado para ajudar no desenvolvimento React, com alguns pacotes instalados e configurações como:
 
-## Getting Started
+- Typescript
+- Path Mapping
+- Eslint
+- Commit Lint
+- Jest
+- Husky
+- Lint Staged
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+### Instalação
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Para usar basta fazer um clone e rodar o:
 
 ```
-Give the example
+yarn
 ```
 
-And repeat
+Como o Path Mapping está configurado já existe algumas pastas pre-definidas, pode se usar a estrura como está ou modicar, basta alterar o package.json, config-overrides.js e tsconfig.paths.json
+
+## Testes
+
+Para testar basta executar o comando
 
 ```
-until finished
+yarn test
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+ou
 
 ```
-Give an example
+yarn test:coverage
 ```
 
-### And coding style tests
+Para gerar o coverage
 
-Explain what these tests test and why
+Tem a opção de fazer o lint em todo código, basta executar o comando:
 
 ```
-Give an example
+yarn eslint:fix
 ```
 
-## Deployment
+Mas como temos o commitlint instalado basta executar o comando:
 
-Add additional notes about how to deploy this on a live system
+```
+git commit
+```
 
-## Built With
-
-- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-- [Maven](https://maven.apache.org/) - Dependency Management
-- [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Authors
-
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Que será executado o lint do código, os testes do código alterado será executado e por fim uma série de perguntas aparecerá no terminal para guiar o tipo de commit.
