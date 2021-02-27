@@ -6,59 +6,18 @@
     </td>
     <td>
       <h3>
-        Projeto criado no Gostack Bootcamp: Frontend Gobarber
+        Instalação Padrão React Default
       </h3>
-      <p>Pequena aplicação criada usando Reactjs aplicando Context API.</p>
+      <p>Instalação Padrão React Default, com algumas configurações pre-definidas.</p>
       <p>
         <a href="https://cajucomunica.com.br">
           <img alt="Criado por Alcir Junior [Caju]" src="https://img.shields.io/badge/criado%20por-Alcir Junior [Caju]-%23f08700">
         </a>
         <img alt="License" src="https://img.shields.io/badge/license-MIT-%23f08700">
       </p>
-      <p">
-        <a href="#telas-do-sistema">Telas da aplicação:</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+      <p>
         <a href="#descrição">Descrição</a>
       </p>
-    </td>
-  </tr>
-</table>
-
-#### Telas do Sistema
-
-<p align="center">
-    <img alt="Tela 01" src="_images/login.png" width="75%" style="margin: 15px 0" />
-</p>
-<p align="center">
-    <img alt="Tela 02" src="_images/create-account.png" width="75%" style="margin: 15px 0" />
-</p>
-<p align="center">
-    <img alt="Tela 03" src="_images/appointments.png" width="75%" style="margin: 15px 0" />
-</p>
-<p align="center">
-    <img alt="Tela 04" src="_images/create-appointment.png" width="75%" style="margin: 15px 0" />
-</p>
-<p align="center">
-    <img alt="Tela 05" src="_images/profile.png" width="75%" style="margin: 15px 0" />
-</p>
-
-<table>
-  <tr>
-    <td style="vertical-align:top">
-      <img alt="Tela 06" src="_images/dashboard-mobile.png" />
-    </td>
-    <td style="vertical-align:top">
-      <img alt="Tela 07" src="_images/create-appointment-mobile.png" />
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td style="vertical-align:top">
-      <img alt="Tela 08" src="_images/profile-mobile.png" />
-    </td>
-    <td style="vertical-align:top">
-      <img alt="Tela 09" src="_images/providers-mobile.png" />
     </td>
   </tr>
 </table>
@@ -75,6 +34,88 @@ https://github1s.com/alcir-junior-caju/study-js-reactjs-gostack-gobarber
 
 #### Descrição
 
-Pequena aplicação frontend criada usando a Context API, consumindo a API em node, onde temos sistema de autenticação, atualização de perfil, sistema de notificação via toasts e busca nos agendamentos.
+One Paragraph of project description goes here
 
-Como optei por não desenvolver o app passei as funcionalidades do app para web.
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+```
+Give examples
+```
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+```
+Give the example
+```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
+## Running the tests
+
+Explain how to run the automated tests for this system
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+- [Maven](https://maven.apache.org/) - Dependency Management
+- [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+
+## Authors
+
+- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
