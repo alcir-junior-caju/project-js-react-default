@@ -79,7 +79,9 @@ yarn eslint:fix
 Mas como temos o commitlint instalado basta executar o comando:
 
 ```
-git commit
+git commit -m ''
 ```
 
 Que será executado o lint do código, os testes do código alterado será executado e por fim uma série de perguntas aparecerá no terminal para guiar o tipo de commit.
+
+Obs.: Eu não consegui usar o git commit apenas ele ficava abrindo o editor para confirmar o commit, se alguém descobrir o problema fique a vontade para corrigir :)
