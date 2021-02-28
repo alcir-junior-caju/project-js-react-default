@@ -76,7 +76,7 @@ Tem a opção de fazer o lint em todo código, basta executar o comando:
 yarn eslint:fix
 ```
 
-Mas como temos o commitlint instalado basta executar o comando:
+Mas como temos o husky instalado basta executar o comando:
 
 ```
 git commit -m ''
