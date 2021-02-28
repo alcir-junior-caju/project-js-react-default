@@ -1,4 +1,0 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
-yarn lint-staged && exec < /dev/tty && node_modules/.bin/git-cz cz --hook || true
