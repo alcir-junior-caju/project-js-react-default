@@ -46,11 +46,18 @@ Projeto criado para ajudar no desenvolvimento React, com alguns pacotes instalad
 
 ### Instalação
 
-Para usar basta fazer um clone e rodar o:
+Para usar basta fazer um git clone e rodar os seguintes comandos:
 
 ```
+rm -rf .git/
+git init
+git remote add origin ... (seu repositório) ...
 yarn
+git add .
+git commit -m ''
 ```
+
+Com esses comandos você vai remover o repositório, iniciar o git e addicionar seu repositório para só depois disso rodar o yarn, pois se rodar o yarn sem o git você vai ter um erro.
 
 Como o Path Mapping está configurado já existe algumas pastas pre-definidas, pode se usar a estrura como está ou modicar, basta alterar o package.json, config-overrides.js e tsconfig.paths.json
 
